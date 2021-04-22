@@ -30,7 +30,7 @@ catch (PDOException $e) {
                     echo '<h1>'.$key->Name.'</h1></br>';
                     echo '<li> Capitale: '.$key->Capitale.'</li></br>';
                     echo "<li>Nombre d'habitants: ".$key->Population.' Millions</li></br>';
-                    echo '<liclass="scroll">Description: '.$key->Description.'</li></br>';
+                    echo '<li class="scroll">Description: '.$key->Description.'</li></br>';
                     }
                 }
         ?>

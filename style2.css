@@ -42,4 +42,15 @@ body div li {
     height: 100px;
     border: solid white;
     border-radius: 1em;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1em;
+    background-color: rgb(21, 53, 21);
 }
